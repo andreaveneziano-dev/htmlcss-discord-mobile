@@ -1,0 +1,237 @@
+/* IMPOSTAZIONI GENERALI */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #15185d;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
+
+/* CONTENITORE PRINCIPALE */
+
+.pagina {
+    width: 512px;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #1c2080;
+}
+
+/* PARTE SUPERIORE */
+
+.hero {
+    position: relative;
+    background-color: #202080;
+    background-image: url("img/background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-art {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* LOGO */
+
+.brand {
+    position: absolute;
+    top: 22px;
+    left: 28px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.brand-icon {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+/* INTRODUZIONE */
+
+.intro {
+    padding: 42px 38px 38px;
+    background-color: #1c2080;
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-family: "Sigmar", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin: 0 auto 20px;
+    font-size: 34px;
+    line-height: 1;
+    letter-spacing: -0.5px;
+    margin-top: 35px;
+}
+
+.intro p {
+    margin: 0 auto 22px;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+/* PULSANTI */
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    width: 80%;
+    min-height: 52px;
+    padding: 14px 16px;
+
+    border: 2px solid #ffffff;
+    border-radius: 12px;
+
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+
+    text-decoration: none;
+    text-align: center;
+}
+
+/* PULSANTE DOWNLOAD */
+
+.button-download {
+    background-color: #ffffff;
+    color: #232323;
+    border-color: #d9dcff;
+
+}
+
+.button-download i {
+    font-size: 16px;
+}
+
+/* PULSANTE BROWSER */
+
+.button-browser {
+    background-color: #5865f2;
+    color: #ffffff;
+    border-color: #8790ff;
+}
+
+/* SEZIONE DELLE SCHEDE */
+
+.features {
+    padding: 1px 0 12px;
+    background-color: #1c2080;
+}
+
+.feature-card {
+    display: block;
+    position: relative;
+
+    margin: 20px 28px 30px;
+    padding: 54px 34px 34px;
+
+    border-radius: 32px;
+    background-color: #5b63d5;
+    margin-top: 35px;
+}
+
+.feature-card:nth-child(2) {
+    background: linear-gradient(135deg,
+            #6874e8 0%,
+            #515acb 100%);
+}
+
+
+/* DECORAZIONI SOPRA LE SCHEDE */
+
+.card-decoration {
+    position: absolute;
+    top: -35px;
+    left: 170px;
+    width: 88px;
+    height: auto;
+}
+
+.card-eyes {
+    top: -45px;
+    left: 170px;
+    width: 96px;
+}
+
+/* TITOLI DELLE SCHEDE */
+
+.feature-card h2 {
+    margin: 0 0 18px;
+
+    font-family: "Sigmar", sans-serif;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 0.98;
+
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+}
+
+/* TESTI DELLE SCHEDE */
+
+.feature-card p {
+    margin: 0;
+
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* CONTENITORI VIDEO */
+
+.media-box {
+    margin-top: 24px;
+    padding: 12px;
+    border-radius: 28px;
+}
+
+/* RIQUADRO ROSA E VIOLA */
+
+.media-discord {
+    background: linear-gradient(140deg, #28214f, #f52caa);
+}
+
+/* RIQUADRO VERDE */
+
+.media-streamer {
+    background-color: #17dc79;
+}
+
+/* VIDEO */
+
+.demo-video {
+    display: block;
+    width: 100%;
+    aspect-ratio: 3 / 2;
+
+    border-radius: 18px;
+
+    object-fit: cover;
+    background-color: #28214f;
+}
